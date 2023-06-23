@@ -1,15 +1,16 @@
-import styles from "../Navigation/Navgation.module.css";
+import styles from "./Navigation.module.css";
+
 const Navigation = () => {
   return (
-    <nav className={`${styles.navgation} container`}>
-      <div className="log  ">
-        {" "}
-        <img src="/images/logo.png" alt="logo"></img>
+    <nav className={`${styles.navigation} container`}>
+      <div className="logo">
+        <img src="/images/logo.png" alt="do some coding logo" />
       </div>
+
       <ul>
         <li>Home</li>
+        <li>About</li>
         <li>Contact</li>
-        <li>AboutUs</li>
       </ul>
     </nav>
   );
